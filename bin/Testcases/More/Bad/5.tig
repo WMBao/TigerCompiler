@@ -1,9 +1,0 @@
-/* Type mismatch */
-let
-	var a:int := 7
-	var b:string := "blah"
-in
-	a := b
-end
-
-

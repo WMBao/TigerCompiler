@@ -1,6 +1,0 @@
-/* procedure declaration */
-let
-	function p(x:string) = ()
-in
-	p("frabjous")
-end

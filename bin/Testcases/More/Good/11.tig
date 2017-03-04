@@ -1,6 +1,0 @@
-/* nested comment */
-let
-	var x:int := 0
-in
-	/*hey look! a  /*nested*/ comment! */
-end
