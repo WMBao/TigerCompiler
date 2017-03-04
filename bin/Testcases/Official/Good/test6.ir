@@ -1,0 +1,454 @@
+LABEL L5
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t1,
+   CONST 36)),
+ TEMP t0)
+MOVE(
+ TEMP t0,
+ BINOP(PLUS,
+  TEMP t1,
+  CONST 44))
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -12)),
+ TEMP t2)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -44)),
+ TEMP t19)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -40)),
+ TEMP t20)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -36)),
+ TEMP t21)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -32)),
+ TEMP t22)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -28)),
+ TEMP t23)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -24)),
+ TEMP t24)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -20)),
+ TEMP t25)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -16)),
+ TEMP t26)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST 0)),
+ TEMP t5)
+EXP(
+ CALL(
+  NAME do_nothing1,
+   TEMP t0,
+   CONST 0,
+   NAME L3))
+MOVE(
+ TEMP t26,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -16)))
+MOVE(
+ TEMP t25,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -20)))
+MOVE(
+ TEMP t24,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -24)))
+MOVE(
+ TEMP t23,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -28)))
+MOVE(
+ TEMP t22,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -32)))
+MOVE(
+ TEMP t21,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -36)))
+MOVE(
+ TEMP t20,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -40)))
+MOVE(
+ TEMP t19,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -44)))
+MOVE(
+ TEMP t2,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -12)))
+MOVE(
+ TEMP t0,
+ MEM(
+  BINOP(PLUS,
+   TEMP t1,
+   CONST 36)))
+JUMP(
+ NAME L4)
+LABEL L4
+LABEL L7
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t1,
+   CONST 36)),
+ TEMP t0)
+MOVE(
+ TEMP t0,
+ BINOP(PLUS,
+  TEMP t1,
+  CONST 44))
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -12)),
+ TEMP t2)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -44)),
+ TEMP t19)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -40)),
+ TEMP t20)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -36)),
+ TEMP t21)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -32)),
+ TEMP t22)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -28)),
+ TEMP t23)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -24)),
+ TEMP t24)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -20)),
+ TEMP t25)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -16)),
+ TEMP t26)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -4)),
+ TEMP t6)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST 0)),
+ TEMP t5)
+EXP(
+ CALL(
+  NAME do_nothing1,
+   MEM(
+    BINOP(PLUS,
+     TEMP t0,
+     CONST 0)),
+   MEM(
+    BINOP(PLUS,
+     TEMP t0,
+     CONST -4)),
+   NAME L1))
+MOVE(
+ TEMP t26,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -16)))
+MOVE(
+ TEMP t25,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -20)))
+MOVE(
+ TEMP t24,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -24)))
+MOVE(
+ TEMP t23,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -28)))
+MOVE(
+ TEMP t22,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -32)))
+MOVE(
+ TEMP t21,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -36)))
+MOVE(
+ TEMP t20,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -40)))
+MOVE(
+ TEMP t19,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -44)))
+MOVE(
+ TEMP t2,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -12)))
+MOVE(
+ TEMP t0,
+ MEM(
+  BINOP(PLUS,
+   TEMP t1,
+   CONST 36)))
+JUMP(
+ NAME L6)
+LABEL L6
+LABEL L9
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t1,
+   CONST 36)),
+ TEMP t0)
+MOVE(
+ TEMP t0,
+ BINOP(PLUS,
+  TEMP t1,
+  CONST 48))
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -16)),
+ TEMP t2)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -48)),
+ TEMP t19)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -44)),
+ TEMP t20)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -40)),
+ TEMP t21)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -36)),
+ TEMP t22)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -32)),
+ TEMP t23)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -28)),
+ TEMP t24)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -24)),
+ TEMP t25)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -20)),
+ TEMP t26)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -8)),
+ TEMP t7)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -4)),
+ TEMP t6)
+MOVE(
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST 0)),
+ TEMP t5)
+EXP(
+ CALL(
+  NAME do_nothing2,
+   MEM(
+    BINOP(PLUS,
+     TEMP t0,
+     CONST 0)),
+   BINOP(PLUS,
+    MEM(
+     BINOP(PLUS,
+      TEMP t0,
+      CONST -4)),
+    CONST 1)))
+MOVE(
+ TEMP t26,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -20)))
+MOVE(
+ TEMP t25,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -24)))
+MOVE(
+ TEMP t24,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -28)))
+MOVE(
+ TEMP t23,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -32)))
+MOVE(
+ TEMP t22,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -36)))
+MOVE(
+ TEMP t21,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -40)))
+MOVE(
+ TEMP t20,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -44)))
+MOVE(
+ TEMP t19,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -48)))
+MOVE(
+ TEMP t2,
+ MEM(
+  BINOP(PLUS,
+   TEMP t0,
+   CONST -16)))
+MOVE(
+ TEMP t0,
+ MEM(
+  BINOP(PLUS,
+   TEMP t1,
+   CONST 36)))
+JUMP(
+ NAME L8)
+LABEL L8
