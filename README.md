@@ -121,3 +121,4 @@ The specific registers are allocated by Graph Coloring.
 
 
 Finally, all the classes are combined together, with error message reporter ``ErrorMsg`` class and the entrance method ``Main.main()``.
+
